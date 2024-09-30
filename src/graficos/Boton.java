@@ -23,7 +23,6 @@ public class Boton extends JButton{
     public Boton(){
         setText("Haz clic en mí");
         setFont(new Font(Font.SANS_SERIF,Font.BOLD,16));
-        setBounds(COORDENADAX,COORDENADAY,ANCHO,ALTO);
         setHorizontalAlignment(SwingConstants.CENTER);
         setVisible(true);
     }

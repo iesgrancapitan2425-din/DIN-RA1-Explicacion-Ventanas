@@ -25,7 +25,8 @@ public class Etiqueta extends JLabel{
     public Etiqueta(){
         setText("¡Hola!, soy una etiqueta");
         setFont(new Font(Font.MONOSPACED,Font.BOLD,18));
-        setBounds(COORDENADAX,COORDENADAY,ANCHO,ALTO);
+        //setBounds(COORDENADAX,COORDENADAY,ANCHO,ALTO);
+        //setSize(ANCHO,ALTO);
         setHorizontalAlignment(SwingConstants.CENTER);
         setVisible(true);
     }
