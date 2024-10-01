@@ -38,7 +38,7 @@ public class Ventana extends JFrame{
         Boton miBoton = new Boton();      
         
         JPanel panel2 = (new JPanel());
-        panel2.setBorder(BorderFactory.createEmptyBorder(10,70,70,70));
+        panel2.setBorder(BorderFactory.createEmptyBorder(10,130,100,130));
         panel2.setLayout(new GridLayout(1,1));
         panel2.add(miBoton);
         getContentPane().add(panel2);

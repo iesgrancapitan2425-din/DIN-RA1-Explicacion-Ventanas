@@ -25,6 +25,5 @@ public class Boton extends JButton{
         setFont(new Font(Font.SANS_SERIF,Font.BOLD,16));
         setHorizontalAlignment(SwingConstants.CENTER);
         setVisible(true);
-    }
-    
+    }   
 }
