@@ -43,17 +43,7 @@ public class Ventana extends JFrame{
         panel2.add(miBoton);
         getContentPane().add(panel2);
         
-        miBoton.addActionListener(new ActionListener(){
-            @Override
-            public void actionPerformed(ActionEvent ae){
-                float red = (float)Math.random();
-                float green = (float)Math.random();
-                float blue = (float)Math.random();
-                miEtiqueta.setText("Has hecho clic");
-                miEtiqueta.setForeground(new Color(red,green,blue));
-                
-            }});
-        
+        miBoton.addActionListener(new BotonAddEventListener(miEtiqueta));
         initControllers();
     }
     
